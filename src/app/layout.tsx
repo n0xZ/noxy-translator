@@ -1,18 +1,19 @@
+
 import './globals.css'
 
 export const metadata = {
-  title: 'Bienvenido a Noxy-abli!',
-  description: 'No se lo que hay acá la verdad.',
+	title: 'Bienvenido a Noxy-abli!',
+	description: 'Traduce lo que quieras a cualquier idioma posible.',
 }
 
 export default function RootLayout({
-  children,
+	children,
 }: {
-  children: React.ReactNode
+	children: React.ReactNode
 }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  )
+	return (
+		<html lang="en">
+			<body>{children}</body>
+		</html>
+	)
 }
